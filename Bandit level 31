@@ -1,0 +1,20 @@
+Ls
+mkdir /tmp/nRepo31/
+cd /tmp/nRepo31/
+git clone ssh://bandit31-git@localhost/home/bandit31-git/repo
+Ls
+Cd repo
+Ls
+Cat README.md
+Git branch
+Touch key.txt
+echo "May I come in?" > key.txt
+Git add key.txt
+Ls -al
+Cat .gitignore
+Rm .gitignore
+Ls -al
+Git add key.txt
+Ls -l
+Git commit -m “Upload a file”
+Git push origin master 
