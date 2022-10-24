@@ -1,0 +1,14 @@
+Terminal 1
+Ls
+Ls -l
+./suconnect
+nmap localhost
+Man nc
+Nc -lp 2000
+
+Terminal 2
+./suconnect 2000
+Password
+
+-> Terminal 1
+password
