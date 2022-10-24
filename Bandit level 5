@@ -1,0 +1,4 @@
+Ls
+Cd inhere
+find . -size 1033c ! -executables
+Cat ./maybehere07/.file2
