@@ -1,0 +1,5 @@
+Ls 
+Cd inhere
+Ls
+File ./-file*
+Cat ./-file07
