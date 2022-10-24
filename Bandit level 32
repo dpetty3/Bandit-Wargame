@@ -1,0 +1,4 @@
+$0
+Ls -l
+$ echo $SHELL
+Cat /etc/bandit_pass/bandit33
