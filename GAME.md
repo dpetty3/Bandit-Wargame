@@ -1,4 +1,5 @@
 # Bandit-Wargame <https://overthewire.org/wargames/bandit>
+# Youtube for visuals <https://www.youtube.com/playlist?list=PLRiiySejGU9G2DqMkDmG6dV9jYshHYOuQ>
 # This repo shares all of my command resolutions to solve the wargame in Bash using SSH on macOS BigSur
 # Here are the level challenges
 
@@ -9,6 +10,11 @@ Whenever you find a password for a level, use SSH (on port 2220) to log into tha
 
 Level 1 --> Level 2
 The password for the next level is stored in a file called - located in the home directory
+
+Level 2 --> Level 3
+The password for the next level is stored in a file called spaces in this filename located in the home directory
+
+
 
 Level 3 --> Level 4
 The password for the next level is stored in a hidden file in the inhere directory.
