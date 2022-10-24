@@ -1,0 +1,2 @@
+ls
+tr 'A-Za-z' 'N-ZA-Mn-za-m' <data.txt>
