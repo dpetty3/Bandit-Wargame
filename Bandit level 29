@@ -1,0 +1,13 @@
+Cd
+mkdir /tmp/nRepo29/
+Ls
+git clone ssh://bandit29-git@localhost/home/bandit29-git/repo.git/
+Ls
+Cd repo
+Ls
+Cat README.md
+Git log -p
+Git branch -r
+Git checkout dev
+Git log -p
+[type q to get out of loop]
