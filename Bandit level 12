@@ -1,0 +1,41 @@
+Ls
+Cat data.txt
+
+mkdir /tmp/misspetty
+cd /tmp/misspetty
+cp data.txt /tmp/misspetty
+xxd -r data.txt > bandit
+
+Ls
+File bandit
+mv bandit bandit.gz     //create file to be extracted
+gunzip bandit.gz			// compressed bandit
+
+Ls
+file bandit				//check file type
+bzip2 -d bandit			// decompression for readability
+file bandit.out
+
+mv bandit.out bandit.gz 	// compress and decompress again
+Gunzip bandit.gz
+
+Ls
+File bandit
+ 
+tar xvf bandit			//tar extracting and re-extracting
+file data5.bin
+Tar xvf data5.bin
+file data6.bin
+
+Bzip2 -d
+file data6.bin.out
+
+tar xvf data6.bin.out
+file data8.bin
+
+mv data8.bin data8.gz
+Gunzip data8.gz
+Ls
+
+File data8
+Cat data8
