@@ -1,0 +1,6 @@
+Ls
+cd /etc/cron.d/
+Ls -l
+cat cronjob_bandit22
+Cat /usr/bin/cronjob_bandit22.sh
+cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
