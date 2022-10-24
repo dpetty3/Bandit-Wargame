@@ -1,0 +1,7 @@
+Ls
+Ls -l
+./bandit20-do
+ cd /etc/bandit_pass
+file bandit20
+Cd
+./bandit20-do cat /etc/bandit_pass/bandit20
