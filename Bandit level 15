@@ -1,0 +1,2 @@
+openssl s_client -connect localhost:30001
+openssl s_client -connect localhost:30001 -tlsextdebug -msg
