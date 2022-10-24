@@ -1,0 +1,2 @@
+Ls
+sort data.txt | uniq -u
