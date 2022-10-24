@@ -1,0 +1,14 @@
+Ls
+Cat bandit26.sshkey
+ssh -i bandit26.sshkey bandit26@localhost
+
+cat /etc/passwd
+cat /usr/bin/showtext
+
+Reduce the screen size until more shows
+ssh -i bandit26.sshkey bandit26@localhost
+h
+v
+:set shell=/bin/bash
+:shell
+cat /etc/bandit_pass/bandit26
