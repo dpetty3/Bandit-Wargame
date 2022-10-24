@@ -1,0 +1,11 @@
+Ls
+Mkdir /tmp/nRepo30/
+Cd /tmp/nRepo30/
+
+Ls
+Cd repo
+Ls
+Cat README.md
+Git branch -r 
+Git tag
+Git show secret
